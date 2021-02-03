@@ -16,21 +16,21 @@ namespace Inheritance
             // give this class 4 members that are specific to Bird - done
             // Set this class to inherit from your Animal Class
 
-            // Create a class Reptile
+            // Create a class Reptile-Done
             // give this class 4 members that are specific to Reptile
             // Set this class to inherit from your Animal Class
 
 
 
 
-            /*Create an object of your Bird class
+            /*Create an object of your Bird class -Done
              *  give values to your members using the object of your Bird class
              *  
              * Creatively display the class member values 
              */
-            Bird zapdos = new Bird()
+            Bird zapados = new Bird()
             {
-                Name = "Zapdos",
+                Name = "Zapados",
                 Age = 1000,
                 Legs = 2,
                 HasBackbone = true,
@@ -39,10 +39,11 @@ namespace Inheritance
                 Type = "electric",
 
             };
-            Console.WriteLine($"{zapdos.Name} is an {zapdos.Type} pokemon that is {zapdos.Age} years old and has"+
-                $"{zapdos.Legs} legs and {zapdos.Wings} wings" );
-            Console.WriteLine($"Is {zapdos.Name} a vertebrate, warm blooded and has feathers?"+
-                $"{zapdos.HasBackbone}, {zapdos.IsWarmBlooded}, and {zapdos.HasFeathers}");
+            Console.WriteLine($"{zapados.Name} is an {zapados.Type} pokemon that is {zapados.Age} years old and has"+
+                $"{zapados.Legs} legs and {zapados.Wings} wings" );
+            Console.WriteLine($"Is {zapados.Name} a vertebrate, warm blooded and has feathers?"+
+                $"{zapados.HasBackbone}, {zapados.IsWarmBlooded}, and {zapados.HasFeathers}");
+            //Bird penguin = new Bird(15, 2, true, true, true, true, true);
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Bird class
              *  
